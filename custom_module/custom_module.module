@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function custom_module_theme() {
+  return [
+    'hello_block' => [
+      'variables' => ['data' => [], ],
+    ],
+  ];
+}

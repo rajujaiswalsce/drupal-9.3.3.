@@ -1,0 +1,4 @@
+services:
+ custom_module.say_hello:   
+   class: Drupal\custom_module\HelloServices
+   arguments: ['@current_user']

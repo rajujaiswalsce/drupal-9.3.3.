@@ -1,0 +1,7 @@
+custom_module.hello:
+  path: '/welcome'
+  defaults:
+    _controller: 'Drupal\custom_module\Controller\HelloWorldController::welcome'
+    _title: 'Welcome '
+  requirements:
+    _permission: 'access content'
