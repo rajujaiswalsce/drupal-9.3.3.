@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function custom_form_theme($existing, $type, $theme, $path) {
+
+  return [
+	'students_add_form' => [
+      'render element' => 'form',
+    ],
+
+  ];
+
+}  
