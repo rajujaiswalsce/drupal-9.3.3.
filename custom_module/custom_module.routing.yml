@@ -5,3 +5,12 @@ custom_module.hello:
     _title: 'Welcome '
   requirements:
     _permission: 'access content'
+
+
+custom_module.hilll:
+  path: '/product'
+  defaults:
+    _controller: 'Drupal\custom_module\Controller\DemoApi::homepage'
+    _title: 'product'
+  requirements:
+    _permission: 'access content'

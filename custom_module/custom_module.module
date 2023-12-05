@@ -10,3 +10,17 @@ function custom_module_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_theme().
+ */
+function custom_hotels_theme($existing, $type, $theme, $path) {
+  return [
+    'demotemplates' => [
+      'variables' => [
+        'data' => NULL,
+       ],
+      'template' => 'test_demo',
+    ],
+  ];
+}
