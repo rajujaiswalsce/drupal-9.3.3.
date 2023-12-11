@@ -28,6 +28,8 @@ class ResourceName extends ResourceBase{
    */
   public function get() {
     //  dd(\Drupal::request()->query->has('url'));
+    // use this type url
+    //http://localhost/drupal-9.3.3/api/custom?url=/test
     if (\Drupal::request()->query->has('url') ) {
         
         $url = \Drupal::request()->query->get('url');
@@ -48,8 +50,8 @@ class ResourceName extends ResourceBase{
             // dd($node_id);
             array_push($data,Node::load($node_id[$i]));
           }
-           
-            return new ModifiedResourceResponse($data);
+        
+             return new ModifiedResourceResponse($data);
                 }
                 
             }

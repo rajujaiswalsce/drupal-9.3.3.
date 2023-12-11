@@ -8,14 +8,6 @@ function custom_module_theme() {
     'hello_block' => [
       'variables' => ['data' => [], ],
     ],
-  ];
-}
-
-/**
- * Implements hook_theme().
- */
-function custom_hotels_theme($existing, $type, $theme, $path) {
-  return [
     'demotemplates' => [
       'variables' => [
         'data' => NULL,
@@ -24,3 +16,5 @@ function custom_hotels_theme($existing, $type, $theme, $path) {
     ],
   ];
 }
+
+
