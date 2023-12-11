@@ -1,0 +1,5 @@
+name: 'Sample Rest Resource'
+type: module
+description: 'This is Custom Module use for Services.'
+package: Module
+core_version_requirement: ^9.3 || ^10
